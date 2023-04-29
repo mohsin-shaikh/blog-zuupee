@@ -28,7 +28,6 @@ A few major over-engineering-changes from the original repo:
 - 👨‍💻 Making a lot of changes to the UI, new homepage design, adding `ProfileCard`, `CareerTimeline` components, adding `/snippets`, `/resume` page, etc.
 - 📥 Bumping up `mdx-bundler`, `rehype`/`remark` plugins and dependencies to the latest version
 
-_This blog have a legacy version built with **Gatsby** which can be found [here](https://leo-blog-legacy.vercel.app/)_.
 
 ## Assets
 
@@ -38,4 +37,4 @@ Thanks for the free resources 🙏
 
 ---
 
-Copyright (c) 2023 Tuan Anh Huynh (Leo) - Alrights reserved.
+Copyright (c) 2023 Mohsin Shaikh (zuupee) - All rights reserved.
