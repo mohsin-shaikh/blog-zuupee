@@ -4,8 +4,8 @@ import { siteMetadata } from '~/data/siteMetadata'
 export function ProfileCardInfo() {
   return (
     <div className="hidden py-4 xl:block xl:px-6">
-      <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Tuan Anh (Leo) Huynh</h3>
-      <h5 className="py-2 text-gray-700 dark:text-gray-400">Learner | Builder</h5>
+      <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Mohsin Shaikh</h3>
+      <h5 className="py-2 text-gray-700 dark:text-gray-400">Learner | Software Developer</h5>
       <div className="mb-2 mt-4 space-y-4">
         <div className="flex items-center text-gray-700 dark:text-gray-200">
           <svg
@@ -27,11 +27,11 @@ export function ProfileCardInfo() {
             CTO / Co.Founder @{' '}
             <a
               target="_blank"
-              href="https://weaverse.io"
+              href="https://zuupee.com"
               rel="noreferrer"
               className="hover:underline"
             >
-              Weaverse
+              ZUUPEE
             </a>
           </p>
         </div>
@@ -58,9 +58,9 @@ export function ProfileCardInfo() {
           </svg>
 
           <p className="px-2">
-            [::1]:443 - Ha Noi,
+            [::1]:443 - HYD India,
             <span className="absolute ml-1 inline-flex pt-px">
-              <Twemoji emoji="flag-vietnam" />
+              <Twemoji emoji="flag-india" />
             </span>
           </p>
         </div>
@@ -98,32 +98,32 @@ export function ProfileCardInfo() {
               d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
             />
           </svg>
-          <p className="flex space-x-1.5 px-2">
+          <p className="flex flex-col space-y-1.5 px-2">
             <a
               target="_blank"
               href={siteMetadata.github}
               rel="noreferrer"
               className="umami--click--profile-card-github hover:underline"
             >
-              gh/{siteMetadata.socialAccounts.github}
+              GitHub/{siteMetadata.socialAccounts.github}
             </a>
-            <span className="text-gray-400 dark:text-gray-500">|</span>
+            {/* <span className="text-gray-400 dark:text-gray-500">|</span> */}
             <a
               target="_blank"
               href={siteMetadata.linkedin}
               rel="noreferrer"
               className="umami--click--profile-card-linkedin hover:underline"
             >
-              in/{siteMetadata.socialAccounts.linkedin}
+              LinkedIn/{siteMetadata.socialAccounts.linkedin}
             </a>
-            <span className="text-gray-400 dark:text-gray-500">|</span>
+            {/* <span className="text-gray-400 dark:text-gray-500">|</span> */}
             <a
               target="_blank"
               href={siteMetadata.twitter}
               rel="noreferrer"
               className="umami--click--profile-card-twitter hover:underline"
             >
-              tw/{siteMetadata.socialAccounts.twitter}
+              Twitter/{siteMetadata.socialAccounts.twitter}
             </a>
           </p>
         </div>
