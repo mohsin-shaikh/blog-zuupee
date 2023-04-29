@@ -2,8 +2,8 @@ export let siteMetadata = {
   title: "Mohsin's blog - Mohsin's coding journey",
   author: 'Mohsin Shaikh',
   fullName: 'Mohsin Shaikh',
-  headerTitle: "Mohsin's blog - Mohsin's coding journey",
-  footerTitle: "Mohsin's blog - Mohsin's coding journey",
+  headerTitle: "Mohsin's blog",
+  footerTitle: "Mohsin's coding journey",
   description:
     "Mohsin's coding journey - work and life stories through the keyboard of an open-minded Software Engineer",
   language: 'en-us',
@@ -21,9 +21,9 @@ export let siteMetadata = {
   locale: 'en-US',
   analyticsURL: 'https://analytics.leohuynh.dev/share/jkwRskv0/leohuynh.dev',
   analytics: {
-    plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: 'mohsin-shaikh.vercel.app', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
-    umamiWebsiteId: '2df62ae5-7f13-455b-8e54-c15b96ff2b8b', // e.g. 123e4567-e89b-12d3-a456-426614174000
+    umamiWebsiteId: '', //'2df62ae5-7f13-455b-8e54-c15b96ff2b8b', // e.g. 123e4567-e89b-12d3-a456-426614174000
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
   },
   socialAccounts: {
