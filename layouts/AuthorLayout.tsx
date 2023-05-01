@@ -1,6 +1,7 @@
 import React from 'react'
 import { ProfileCard } from '~/components/ProfileCard'
 import { PageSeo } from '~/components/SEO'
+import SocialAccounts from '~/components/SocialAccounts'
 import { siteMetadata } from '~/data/siteMetadata'
 import type { AuthorLayoutProps } from '~/types'
 
@@ -25,6 +26,7 @@ export function AuthorLayout({ children }: AuthorLayoutProps) {
           <ProfileCard />
           <div className="prose prose-lg max-w-none pb-8 dark:prose-dark xl:col-span-2 xl:pl-10">
             {children}
+            <SocialAccounts />
           </div>
         </div>
       </div>

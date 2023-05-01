@@ -7,7 +7,7 @@ export async function getStaticProps() {
   return { props: { resumeData } }
 }
 
-export default function About({ resumeData }: { resumeData: MdxFileData }) {
+export default function Resume({ resumeData }: { resumeData: MdxFileData }) {
   let { mdxSource, frontMatter } = resumeData
 
   return (

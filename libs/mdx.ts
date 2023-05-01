@@ -55,6 +55,13 @@ export async function getFileBySlug(type: string, slug: string): Promise<MdxFile
         ...options.loader,
         '.js': 'jsx',
       }
+      // options.define = {
+      //   'process.env.__NEXT_TRAILING_SLASH': JSON.stringify(process.env.__NEXT_TRAILING_SLASH),
+      //   'process.env.__NEXT_IMAGE_OPTS': JSON.stringify(process.env.__NEXT_IMAGE_OPTS),
+      //   // 'process.env.__NEXT_REACT_ROOT': JSON.stringify(process.env.__NEXT_REACT_ROOT),
+      //   'process.env.__NEXT_OPTIMIZE_FONTS': JSON.stringify(process.env.__NEXT_OPTIMIZE_FONTS),
+      // }
+      console.log({ options })
       return options
     },
     mdxOptions(options) {
